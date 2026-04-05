@@ -5,7 +5,7 @@
 sxhkd -c $HOME/.config/xfwm/sxhkdrc &
 tint2 -c $HOME/.config/tint2/tray.tint2rc &
 # nitrogen --restore &
-hsetroot -fill ~/.wall/qw.png &
+hsetroot -fill /usr/share/wall/ctld.png &
 picom -b --config $HOME/.config/picom.conf &
 # redshift -c $HOME/.config/redshift.conf &
 urxvtd -q -o -f &

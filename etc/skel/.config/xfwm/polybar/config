@@ -82,7 +82,7 @@ enable-ipc = true
 # ##########################################
 [module/app]
 type = custom/text
-content = 
+content = 
 content-foreground = ${colors.accent}
 content-background = ${xrdb:color0}
 content-padding = 3
@@ -264,7 +264,7 @@ type = custom/script
 exec = ~/.config/xfwm/polybar/status tor
 interval = 6
 format = <label>
-format-prefix = "  "
+format-prefix = "󰦝  "
 format-prefix-foreground = ${colors.accent}
 format-padding = 0
 click-left = "systemctl restart tor &"
