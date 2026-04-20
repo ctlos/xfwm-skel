@@ -364,5 +364,5 @@ content = 
 content-foreground = ${colors.primary}
 content-background = ${colors.bg_accent}
 content-padding = 3
-click-left = "~/.config/frankenwm/polybar/power &"
+click-left = "~/.config/xfwm/polybar/power &"
 click-right= "~/.bin/multilock.sh -l blur &"
